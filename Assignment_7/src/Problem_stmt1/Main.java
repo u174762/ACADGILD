@@ -14,7 +14,7 @@ public class Main {
 			System.out.println(arr1[i]);
 		}
 		}
-		catch(Exception e)
+		catch( ArrayIndexOutOfBoundsException e)
 		{
 			System.out.println("No more values to display");
 		}
